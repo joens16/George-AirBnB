@@ -79,48 +79,48 @@ label a {
 
 /**** Secondary Color ****/
 ::-moz-selection {
-	background-color: #21b360;
+	background-color: #ff5a5f;
 }
 ::selection {
-	background-color: #21b360;
+	background-color: #ff5a5f;
 }
 a:hover,
 a:focus {
-	color: #21b360;
+	color: 	#ff5a5f;
 }
 .header-top-content .left-content ul li a {
-    color: #21b360;
+    color: 	#ff5a5f;
 }
 .menu-list li:hover > a, 
 .menu-list > li > a:hover, 
 .menu-list > li > a.active {
-	color: #21b360 !important;
+	color: #ff5a5f !important;
 }
 .button:hover {
-	background-color: #21b360;
+	background-color: #ff5a5f;
 }
 .banner-text-content .more-link:hover {
-	background-color: #21b360;
+	background-color: #ff5a5f;
 }
 .call-to-action.style-two .right-content .contact a:hover {
-	background-color: #21b360;
+	background-color: #ff5a5f;
 }
 .apartments-content .text-content .top-content h3 a:hover {
-	color: #21b360;
+	color: #ff5a5f;
 }
 .dropdown-menu li a:hover,
 .share-meta li a:hover {
-	color: #21b360;
+	color: #ff5a5f;
 }
 .category-list a:hover i,
 .category-list a:hover h4 {
-	color: #21b360;
+	color: #ff5a5f;
 }
 .catagory-left-content .button:hover {
-	background-color: #21b360;
+	background-color: #ff5a5f;
 }
 .call-to-action.style-two .right-content .contact a:hover {
-	background-color:  #21b360 !important;
+	background-color:  #ff5a5f !important;
 }
 
 /**** Gradient Color ****/
