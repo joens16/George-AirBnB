@@ -20,7 +20,7 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="assets/images/house-logo.png">
+    <link rel="shortcut icon" href="assets/images/bnbicon.jpeg">
     <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -527,7 +527,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="page-title">Contact</h2>
-                   
+                    <p class="page-description">And feel free to follow us...</p>
                 </div>
                 <!-- /.col-md-12 -->
             </div>
@@ -617,29 +617,33 @@
 
                 <div class="col-md-8">
                     <div class="contact-us-content-right">
-                        <form action="#">
+                        <form action="https://formspree.io/joens16@hotmail.com"
+                        method="POST" id="contact-form">
                             <h3>Have a question</h3>
                             <img src="assets/images/envelope.jpg" alt="envelope" />
                             <div class="input-content clearfix">
-                                <h4>Send Us An E-Mail</h4>
+                                <h4>Send us an e-mail</h4>
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <input type="text" placeholder="Name*" class="form-control">
+                                        <input name="name" type="text" placeholder="Name*" class="form-control name" required>
                                     </div>
                                     <!-- /.col-sm-6 -->
                                     <div class="col-sm-6">
-                                        <input type="email" placeholder="Email*" class="form-control Email">
+                                        <input name="email" type="email" placeholder="Email*" class="form-control email" required>
                                     </div>
                                     <!-- /.col-sm-6 -->
                                     
                                     <div class="col-md-12">
-                                        <textarea rows="2" cols="80">your massage</textarea>
+                                        <textarea name="message" class="form-control message" rows="2" cols="80" required>your massage</textarea>
+                                    </div>
+                                    <div class="status">
+
                                     </div>
                                     <!-- /.col-md-12 -->
                                 </div>
                                 <!-- /.row -->
-                                <div class="subimt-button clearfix">
-                                    <input type="submit" value="Submit" class="submit default-template-gradient">
+                                <div class="submit-button clearfix">
+                                    <input type="submit" class="form control submit default-template-gradient">
                                 </div>
                                 <!-- /.subimt -->
                             </div>
@@ -712,6 +716,7 @@
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
     <!-- main-js -->
 </body>
 

@@ -151,7 +151,7 @@ h4 a:hover {
 }
 .heading-content-one h2.title {
   font-size: 60px;
-  color: inherit;
+  color: #5a5a5a;
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
@@ -166,7 +166,7 @@ h4 a:hover {
 .heading-content-one h5.sub-title {
   font-family: inherit;
   font-size: 16px;
-  color: inherit;
+  color: #5a5a5a;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.035em;
@@ -1009,7 +1009,10 @@ a.more-content {
 }
 
 .nevy-button {
-  background-color: #0e385d;
+  background-color: #ff5a5f;
+}
+.nevy-button:hover {
+  background-color: #ea4335;
 }
 
 .button-radius {
@@ -6104,7 +6107,7 @@ Sign In/Sign Up Pop up
 
 .page-header {
   margin: 0;
-  padding: 60px 0;
+  padding: 15px 0;
   text-align: center;
 }
 
