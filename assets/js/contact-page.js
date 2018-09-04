@@ -1,5 +1,3 @@
-console.log("it works fine");
-
 $(document).ready(function () {
     $(".submit").click(function (event) {
 
